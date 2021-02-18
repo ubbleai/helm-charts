@@ -3,9 +3,9 @@ entries:
   vault-secrets-operator:
   - apiVersion: v1
     appVersion: 1.12.1
-    created: "2021-02-17T18:24:27.417115+01:00"
+    created: "2021-02-18T11:52:33.063676+01:00"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
-    digest: f76069d374105879c36a52770dfba07ef0d3550fae5083203c709cf5c1e81680
+    digest: f0fd8458c8a4c06f906e3187fbe9550e4fb1e3a63c6351e667eefa6bbdaa8ebb
     home: https://github.com/ricoberger/vault-secrets-operator
     icon: https://raw.githubusercontent.com/ricoberger/vault-secrets-operator/master/assets/logo.png
     maintainers:
@@ -15,4 +15,4 @@ entries:
     urls:
     - https://ubbleai.github.io/helm-charts/vault-secrets-operator-1.12.1.tgz
     version: 1.12.1
-generated: "2021-02-17T18:24:27.415152+01:00"
+generated: "2021-02-18T11:52:33.060412+01:00"
