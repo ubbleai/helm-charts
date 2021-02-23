@@ -1,9 +1,30 @@
 apiVersion: v1
 entries:
+  minio:
+  - apiVersion: v1
+    appVersion: master
+    created: "2021-02-23T18:42:26.451242+01:00"
+    description: High Performance, Kubernetes Native Object Storage
+    digest: 784040773916590199f084faae1c8de3df6802f5e5e44b1bb3bcc0732b7c5fce
+    home: https://min.io
+    icon: https://min.io/resources/img/logo/MINIO_wordmark.png
+    keywords:
+    - storage
+    - object-storage
+    - S3
+    maintainers:
+    - email: dev@minio.io
+      name: MinIO, Inc
+    name: minio
+    sources:
+    - https://github.com/minio/minio
+    urls:
+    - https://github.com/matthieu77000/helm-charts/minio-8.0.11.tgz
+    version: 8.0.11
   vault-secrets-operator:
   - apiVersion: v1
     appVersion: 1.12.1
-    created: "2021-02-18T11:52:33.063676+01:00"
+    created: "2021-02-23T18:42:26.45187+01:00"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: f0fd8458c8a4c06f906e3187fbe9550e4fb1e3a63c6351e667eefa6bbdaa8ebb
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -13,6 +34,6 @@ entries:
       url: https://ricoberger.de
     name: vault-secrets-operator
     urls:
-    - https://ubbleai.github.io/helm-charts/vault-secrets-operator-1.12.1.tgz
+    - https://github.com/matthieu77000/helm-charts/vault-secrets-operator-1.12.1.tgz
     version: 1.12.1
-generated: "2021-02-18T11:52:33.060412+01:00"
+generated: "2021-02-23T18:42:26.449647+01:00"
