@@ -3,7 +3,27 @@ entries:
   minio:
   - apiVersion: v1
     appVersion: master
-    created: "2024-10-14T15:40:10.253635+02:00"
+    created: "2024-10-15T10:53:17.154379+02:00"
+    description: High Performance, Kubernetes Native Object Storage
+    digest: 1e39ade529a6bc75bb2d64db492335dac4bce66a228e786a0e589fc1ac683c94
+    home: https://min.io
+    icon: https://min.io/resources/img/logo/MINIO_wordmark.png
+    keywords:
+    - storage
+    - object-storage
+    - S3
+    maintainers:
+    - email: dev@minio.io
+      name: MinIO, Inc
+    name: minio
+    sources:
+    - https://github.com/minio/minio
+    urls:
+    - https://ubbleai.github.io/helm-charts/minio-8.0.16.tgz
+    version: 8.0.16
+  - apiVersion: v1
+    appVersion: master
+    created: "2024-10-15T10:53:17.152422+02:00"
     description: High Performance, Kubernetes Native Object Storage
     digest: 07e7c4a5a20fda62c460dd1c9aeef4181451258926304706af69c96549e84ef0
     home: https://min.io
@@ -23,27 +43,7 @@ entries:
     version: 8.0.15
   - apiVersion: v1
     appVersion: master
-    created: "2024-10-14T15:40:10.25206+02:00"
-    description: High Performance, Kubernetes Native Object Storage
-    digest: 58db09a19b93e19790723ffd57398617f9c8df2fe158fa60aee169626ba1b953
-    home: https://min.io
-    icon: https://min.io/resources/img/logo/MINIO_wordmark.png
-    keywords:
-    - storage
-    - object-storage
-    - S3
-    maintainers:
-    - email: dev@minio.io
-      name: MinIO, Inc
-    name: minio
-    sources:
-    - https://github.com/minio/minio
-    urls:
-    - https://ubbleai.github.io/helm-charts/minio-8.0.14.tgz
-    version: 8.0.14
-  - apiVersion: v1
-    appVersion: master
-    created: "2024-10-14T15:40:10.247355+02:00"
+    created: "2024-10-15T10:53:17.150513+02:00"
     description: High Performance, Kubernetes Native Object Storage
     digest: f7361c5ad61b4b1a6f126939320096c8b7db4b117fd3e75e6f3a75ba8f333f3a
     home: https://min.io
@@ -63,7 +63,7 @@ entries:
     version: 8.0.13
   - apiVersion: v1
     appVersion: master
-    created: "2024-10-14T15:40:10.245604+02:00"
+    created: "2024-10-15T10:53:17.148477+02:00"
     description: High Performance, Kubernetes Native Object Storage
     digest: 76dc533a99eb5ed22c974a7c3bd9d816c46456c598120b252d8276750aecdbc3
     home: https://min.io
@@ -83,7 +83,7 @@ entries:
     version: 8.0.12
   - apiVersion: v1
     appVersion: master
-    created: "2024-10-14T15:40:10.243359+02:00"
+    created: "2024-10-15T10:53:17.14493+02:00"
     description: High Performance, Kubernetes Native Object Storage
     digest: 784040773916590199f084faae1c8de3df6802f5e5e44b1bb3bcc0732b7c5fce
     home: https://min.io
@@ -104,7 +104,7 @@ entries:
   vault-secrets-operator:
   - apiVersion: v1
     appVersion: 1.12.1
-    created: "2024-10-14T15:40:10.2543+02:00"
+    created: "2024-10-15T10:53:17.15501+02:00"
     description: Create Kubernetes secrets from Vault for a secure GitOps based workflow.
     digest: f0fd8458c8a4c06f906e3187fbe9550e4fb1e3a63c6351e667eefa6bbdaa8ebb
     home: https://github.com/ricoberger/vault-secrets-operator
@@ -116,4 +116,4 @@ entries:
     urls:
     - https://ubbleai.github.io/helm-charts/vault-secrets-operator-1.12.1.tgz
     version: 1.12.1
-generated: "2024-10-14T15:40:10.241804+02:00"
+generated: "2024-10-15T10:53:17.143227+02:00"
